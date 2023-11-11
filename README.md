@@ -7,13 +7,21 @@ To implement Matrix summation with 2D grids and blocks.
 ## Procedure:
 
 1.Initialize matrix sizes (nx and ny)
+
 2.Allocate memory on the host and initialize data
+
 3.Allocate memory on the device and transfer data from the host to the device
+
 4.Configure grid and block dimensions for the GPU kernel
+
 5.Launch the GPU kernel (sumMatrixOnGPU2D) to perform matrix addition
+
 6.Copy the GPU results back to the host
+
 7.Verify and compare the results between the host and GPU
+
 8.Free allocated memory
+
 9.Reset the GPU device.
 
 ## PROGRAM
